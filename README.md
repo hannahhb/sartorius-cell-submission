@@ -13,6 +13,6 @@ File links after execution of each of the sections from jupyter notebook attache
     output - <a href="https://drive.google.com/file/d/1dOgM3O0YhNNoRvbedwV9DEMbxX_U-4bu/view?usp=sharing" title="title">pseudo_labels_f4.json</a> 
 3. Training with pseudo labels and train dataset
     input - jsons from previvious step with newly creating pseudo json; Sartorius Dataset
-    output -  <a href="https://drive.google.com/file/d/1dOgM3O0YhNNoRvbedwV9DEMbxX_U-4bu/view?usp=sharing)" title="title">model_best.pth</a>  (final file used during inference on Kaggle Submission) 
+    output -  <a href="https://drive.google.com/file/d/1dOgM3O0YhNNoRvbedwV9DEMbxX_U-4bu/view?usp=sharing)" title="title">model_best.pth</a>  (final file used during inference on Kaggle Submission with Public LB - 0.314; Private - 0.323) 
 
 </pre>
