@@ -11,7 +11,7 @@ File links after execution of each of the sections from jupyter notebook attache
 2. Inference on all Semi-Supervised data to create .json pseudo_labels file; 
     input - jsons and model_best.pth from previous step; Semi Supervised Learning Dataset
     output - <a href="https://drive.google.com/file/d/1dOgM3O0YhNNoRvbedwV9DEMbxX_U-4bu/view?usp=sharing" title="title">pseudo_labels_f4.json</a> 
-3. Training with pseudo labels and train dataset using Masc RCNN X101 Model:
+3. Training with pseudo labels and train dataset using Mask RCNN X101 Model:
     input - jsons from previvious step with newly creating pseudo json; Sartorius Dataset
     output -  <a href="https://drive.google.com/file/d/1dOgM3O0YhNNoRvbedwV9DEMbxX_U-4bu/view?usp=sharing)" title="title">model_best.pth</a>  (final file used during inference on Kaggle Submission with Public LB - 0.314; Private - 0.323) 
 
