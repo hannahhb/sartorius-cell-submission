@@ -3,7 +3,7 @@
 Step-wise procedure used to obtain file for Kaggle Submission
 File links after execution of each of the sections from jupyter notebook attached:  
 1. Training with all of LiveCell data using Cascade Mask RCNN: 
-    input - markunys livecell data; attached annotation files; 
+    input - markunys livecell data; attached annotation files; (downloaded using !kaggle datasets download -d markunys/livecell-dataset)
     output - <a href="https://drive.google.com/file/d/1-o3JVPLWx070rMrOxNHM4V-kHIANm2vG/view?usp=sharing" title="title">model_best.pth</a> 
 2. Transfer Learning using Sartorius Dataset: 
     input - <a href="https://drive.google.com/file/d/1dPbOf9e480hx0sxVFGyo93B40sJMQUDl/view?usp=sharing" title="title">coco_cell_valid_fold4.json</a>; <a href="https://drive.google.com/file/d/1qvjruUgvlgfUY_K0YS_fiPlu3f6FLK-a/view?usp=sharing" title="title">coco_cell_train_fold4.json</a>; Sartorius Dataset
